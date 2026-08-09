@@ -16,7 +16,7 @@ key is derived with Argon2id and lives only in process memory after unlock.
 
 Two sub-projects complete it:
 
-- **[LyraMini](https://github.com/echox5938-sys/LyraMini)** - the retrieval half. A read-only CLI over an
+- **LyraMini** - the retrieval half. A read-only CLI over an
   Obsidian vault: scans, flags orphans and duplicates, ranked search on SQLite FTS5. Zero writes and zero
   LLM calls by design. Lyra answers, LyraMini only finds.
 - **Aladfar** - the one component permitted to make off-machine calls, so the rest of the system stays
